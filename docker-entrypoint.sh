@@ -1,7 +1,7 @@
 #!/bin/sh
 
 $neighbors
-for neighbor in $(cat /iri/conf/neighbors); do
+for neighbor in $(cat /iri/conf/neighbors.txt); do
   neighbors="$neighbors $neighbor"
 done
 
