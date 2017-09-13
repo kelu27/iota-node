@@ -8,7 +8,7 @@ RUN apt-get update && apt-get install -y \
     wget \
 	--no-install-recommends \
 	&& rm -rf /var/lib/apt/lists/* && \
-    wget https://github.com/iotaledger/iri/releases/download/v1.3.2/iri-1.3.2.jar
+    wget https://github.com/iotaledger/iri/releases/download/v1.3.2.2/iri-1.3.2.2.jar
 
 COPY conf /iri/conf
 COPY docker-entrypoint.sh /
